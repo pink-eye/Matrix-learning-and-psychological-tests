@@ -8,7 +8,7 @@ void thirdTest();
 // CLEAR ARROWS
 void clrTests()
 {
-	for(int i=8;i<15;i += 2)
+	for(int i = 8; i < 15; i += 2)
 		{
 			pos(62, i);
 			cout<<" ";

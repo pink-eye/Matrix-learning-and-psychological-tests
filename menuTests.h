@@ -34,21 +34,21 @@ void menuTests()
 		cout<<"_";
 	}
 	
-	const char* const first = "Умеете ли вы контролировать себя\0";
-	pos(((83-strlen(first))/2), 8);
-	cout<<first;
+	const char* const firstMenuItem = "Умеете ли вы контролировать себя\0";
+	pos(((83-strlen(firstMenuItem))/2), 8);
+	cout<<firstMenuItem;
 	
-	const char* const second = "Насколько вы доброжелательны\0";
-	pos(((83-strlen(second))/2), 10);
-	cout<<second;
+	const char* const secondMenuItem = "Насколько вы доброжелательны\0";
+	pos(((83-strlen(secondMenuItem))/2), 10);
+	cout<<secondMenuItem;
 	
-	const char* const third = "А вы терпимый человек\0";
-	pos(((83-strlen(third))/2), 12);
-	cout<<third;
+	const char* const thirdMenuItem = "А вы терпимый человек\0";
+	pos(((83-strlen(thirdMenuItem))/2), 12);
+	cout<<thirdMenuItem;
 	
-	const char* const fourth = "Назад в меню\0";
-	pos(((83-strlen(fourth))/2), 14);
-	cout<<fourth;
+	const char* const fourthMenuItem = "Назад в меню\0";
+	pos(((83-strlen(fourthMenuItem))/2), 14);
+	cout<<fourthMenuItem;
 	
 	controllerTests();
 }

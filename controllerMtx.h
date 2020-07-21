@@ -3,14 +3,16 @@
 using namespace std;
 
 void NumberAddiction();
+void NumberSubtraction();
 void MatrixAddiction();
+void MatrixSubtraction();
 void MatrixMultiplication();
 void MatrixTranspose();
 
 // CLEAR ARROWS
 void clrMtx()
 {
-	for(int i=8;i<17;i += 2)
+	for(int i=8;i<21;i += 2)
 		{
 			pos(57, i);
 			cout<<" ";
@@ -36,7 +38,7 @@ void controllerMtx()
 			choice--;
 			clrMtx();
 		}
-		if((key == 80) && (y < 16))
+		if((key == 80) && (y < 20))
 		{
 			y+=2;
 			choice++;
@@ -48,17 +50,25 @@ void controllerMtx()
 		}
 		if((choice==2) && (key==13))
 		{
-			MatrixAddiction();
+			NumberSubtraction();
 		}
 		if((choice==3) && (key==13))
 		{
-			MatrixMultiplication();
+			MatrixAddiction();
 		}
 		if((choice==4) && (key==13))
 		{
-			MatrixTranspose();
+			MatrixSubtraction();
 		}
 		if((choice==5) && (key==13))
+		{
+			MatrixMultiplication();
+		}
+		if((choice==6) && (key==13))
+		{
+			MatrixTranspose();
+		}
+		if((choice==7) && (key==13))
 		{
 			system("cls");
 			mainMenu();

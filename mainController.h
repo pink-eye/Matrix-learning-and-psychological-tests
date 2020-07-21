@@ -9,7 +9,7 @@ void about();
 // CLEAR ARROWS
 void mainClr()
 {
-	for(int i=8;i<15;i += 2)
+	for(int i = 8; i < 15; i += 2)
 		{
 			pos(55, i);
 			cout<<" ";
@@ -21,7 +21,6 @@ void mainClr()
 // FUNC TO CONTROL THE MENU
 void mainController()
 {
-	HANDLE hndl=GetStdHandle(STD_OUTPUT_HANDLE);
 	int x2 = 27, x1 = 55, y = 8, key, choice = 1;
 	pos(x1, y);
 	cout<<"*";

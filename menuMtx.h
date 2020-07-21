@@ -24,7 +24,7 @@ void menuMtx()
 	for(int i=0;i<83;i++)
 		cout<<"*";
 		
-	for(int i = 5; i < 20; i++)
+	for(int i = 5; i < 23; i++)
 	{
 		pos(18, i);
 		cout<<"|";
@@ -32,31 +32,39 @@ void menuMtx()
 		cout<<"|";
 	}
 	
-	pos(18, 20);
+	pos(18, 23);
 	for(int i=18; i <= 64; i++)
 	{	
 		cout<<"_";
 	}
 	
-	const char* const first = "Сложение матрицы на число\0";
-	pos(((83-strlen(first))/2), 8);
-	cout<<first;
+	const char* const firstMenuItem = "Сложение матрицы на число\0";
+	pos(((83-strlen(firstMenuItem))/2), 8);
+	cout<<firstMenuItem;
 	
-	const char* const second = "Сложение двух матриц\0";
-	pos(((83-strlen(second))/2), 10);
-	cout<<second;
+	const char* const secondMenuItem = "Разность матрицы и числа\0";
+	pos(((83-strlen(secondMenuItem))/2), 10);
+	cout<<secondMenuItem;
 	
-	const char* const third = "Произведение двух матриц\0";
-	pos(((83-strlen(third))/2), 12);
-	cout<<third;
+	const char* const thirdMenuItem = "Сложение двух матриц\0";
+	pos(((83-strlen(thirdMenuItem))/2), 12);
+	cout<<thirdMenuItem;
 	
-	const char* const fourth = "Транспонирование матрицы\0";
-	pos(((83-strlen(fourth))/2), 14);
-	cout<<fourth;
+	const char* const fourthMenuItem = "Разность двух матриц\0";
+	pos(((83-strlen(fourthMenuItem))/2), 14);
+	cout<<fourthMenuItem;
 	
-	const char* const fifth = "Назад в меню\0";
-	pos(((83-strlen(fifth))/2), 16);
-	cout<<fifth;
+	const char* const fifthMenuItem = "Произведение двух матриц\0";
+	pos(((83-strlen(fifthMenuItem))/2), 16);
+	cout<<fifthMenuItem;
+	
+	const char* const sixthMenuItem = "Транспонирование матрицы\0";
+	pos(((83-strlen(sixthMenuItem))/2), 18);
+	cout<<sixthMenuItem;
+	
+	const char* const seventhMenuItem = "Назад в меню\0";
+	pos(((83-strlen(seventhMenuItem))/2), 20);
+	cout<<seventhMenuItem;
 	
 	controllerMtx();
 }

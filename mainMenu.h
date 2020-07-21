@@ -35,19 +35,19 @@ void mainMenu()
 		cout<<"_";
 	}
 	
-	const char* const first = "Матрицы";
-	pos(((83-strlen(first))/2), 8);
-	cout<<first;
+	const char* const firstMenuItem = "Матрицы";
+	pos(((83-strlen(firstMenuItem))/2), 8);
+	cout<<firstMenuItem;
 	
-	const char* const second = "Психологические тесты";
-	pos(((83-strlen(second))/2), 10);
-	cout<<second;
+	const char* const secondMenuItem = "Психологические тесты";
+	pos(((83-strlen(secondMenuItem))/2), 10);
+	cout<<secondMenuItem;
 	
-	const char* const third = "Об авторе";
-	pos(((83-strlen(third))/2), 12);
-	cout<<third;
+	const char* const thirdMenuItem = "Об авторе";
+	pos(((83-strlen(thirdMenuItem))/2), 12);
+	cout<<thirdMenuItem;
 	
-	const char* const fourth = "Выход";
-	pos(((83-strlen(fourth))/2), 14);
-	cout<<fourth;
+	const char* const fourthMenuItem = "Выход";
+	pos(((83-strlen(fourthMenuItem))/2), 14);
+	cout<<fourthMenuItem;
 }
