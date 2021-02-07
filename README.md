@@ -1,2 +1,2 @@
-# Matrix learning and psychological tests
+# Matrix learning and psychological tests C++
 Term project of OmGTU
